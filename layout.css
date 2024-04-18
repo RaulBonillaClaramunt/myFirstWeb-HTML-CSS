@@ -1,0 +1,136 @@
+body {
+    background-image: url('jungle.jpg');
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-style: solid;
+    background-color: #6c883f;
+    list-style-type: none;
+    border-color: #6d8c3d;
+
+}
+.nav-list {
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+.nav-list li {
+    margin: 0 15% 0 15%;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #9BBC24;
+    border-style: solid;
+    border-color: #96b721;
+    color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-color: #CCD34A;
+}
+
+.main-grid-delight {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    background-color: #CCD34A;
+}
+
+.column-1 {
+    margin 1%;
+    background-image: url('jungle.jpg');
+}
+.column-3 {
+    margin 1%;
+
+    background-image: url('jungle.jpg');
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 1%;
+    column-gap: 0;
+    row-gap: 0;
+}
+
+.home-text {
+    margin: 1% 5%;
+}
+
+.home-text.frases {
+    background-color: #bdd399;
+}
+.home-text.grandes {
+    background-color: #bdd399;
+}
+
+legend {
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: #6c883f;
+    background-color: #759346;
+    color: white;
+    padding-top: 3px;
+}
+
+#home-picture {
+    display: block;
+    width: 90%;
+    background-position: center;
+    margin: 1% auto;
+    overflow: hidden;
+}
+
+.newsletter-fieldset {
+    margin: 10px 20% 5% 20%;
+    background-color: #bdd399;
+}
+#submit-button {
+    background-color: rgb(238, 42, 42);
+    color: white;
+}
+
+.usefulWebsites {
+    margin-bottom: 5%;
+}
+
+#bestWebsite {
+    margin-left: 20%;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+#delightImgs {
+    width: 100%;
+    height: 300px;
+    }

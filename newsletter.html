@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My first website on HTML&CSS</title>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+    </head>
+
+    <body>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="newsletter.html">NEWSLETTER</a></li>
+                <li><a href="resources.html">RECURSOS</a></li>
+                <li><a href="delight.html">DELEITE</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-grid">
+            <div class="column-1"></div>
+
+            <div class="column-2">
+                <h1>Tips, noticias y eventos semanales</h1>
+                <h2>Suscríbete a nuestra newsletter y mantén el rumbo</h2>
+                <form action="/form-handling-url" method="post">
+                    <fieldset class="newsletter-fieldset">
+                        <legend>Newsletter Viajera</legend>
+                        <div>
+                            <label for="firstName">Nombre</label><br>
+                            <input type="text" id="firstName" name="first-Name">
+                        </div>
+                        <div>
+                            <label for="email">Tu mejor email</label><br>
+                            <input type="email" id="email" name="Email">
+                        </div>
+                        <div>
+                            <label for="plans">Cuéntanos tus planes viajeros</label><br>
+                            <textarea id="plans" name="Plans"></textarea>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="signUp" name="Sign-Up">
+                            <label for="signUp">Quiero recibir la newsletter</label>
+                        </div>
+                        <div>
+                            <button type="submit" id="submit-button">SUSCRIBIRME</button>
+                        </div>
+                    </fieldset>
+
+                </form>
+
+            </div>
+
+            <div class="column-3"></div>
+
+        </main>
+    </body>
+</html>
